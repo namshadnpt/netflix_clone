@@ -20,6 +20,21 @@
   }
 
 .poster{
-    max-height: 250px;
+    max-height: 180px;
     margin-right: 10px;
+    cursor: pointer;
+}
+
+.smallPoster{
+    max-height: 100px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.poster:hover {
+    transform: scale(1.09);
+}
+
+.smallPoster:hover {
+    transform: scale(1.09);
 }
